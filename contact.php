@@ -3,3 +3,239 @@ if($_POST["message"]) {
     mail("hobbssteelej@gmail.com", "Form to email message", $_POST["message"], "From: an@email.address");
 }
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from hobbssteelej.github.io/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 13 Jul 2019 15:19:48 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favico.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140657663-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-140657663-1');
+</script>
+
+<!--
+
+Template 2082 Pure Mix
+
+http://www.tooplate.com/view/2082-pure-mix
+
+-->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<!-- Site title
+   ================================================== -->
+	<title>Contact</title>
+
+	<!-- Bootstrap CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- Animate CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/animate.min.css">
+
+	<!-- Font Icons CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<!-- Main CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Google web font
+   ================================================== -->
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+
+	<!-- Add social media icons from WW3
+   ===================================== -->
+	<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+<!-- Preloader section
+================================================== -->
+<div class="preloader">
+
+	<div class="sk-spinner sk-spinner-pulse"></div>
+
+</div>
+
+
+<!-- Navigation section
+================================================== -->
+<div class="nav-container">
+   <nav class="nav-inner transparent">
+
+      <div class="navbar">
+         <div class="container">
+            <div class="row">
+
+              <div class="brand"><a href="index.html"><img src="images/logo.svg" alt="header logo" width="75" height="75"></a></div>
+
+              <div class="navicon">
+                <div class="menu-container">
+
+                  <div class="circle dark inline">
+                    <i class="icon ion-navicon"></i>
+                  </div>
+
+                  <div class="list-menu">
+                    <i class="icon ion-close-round close-iframe"></i>
+                    <div class="intro-inner">
+                     	<ul id="nav-menu">
+                         <li><a href="index.html">Home</a></li>
+                       	 <li><a href="blog.html">Blog</a></li>
+                       	 <li><a href="contact.html">Contact</a></li>
+                         <li><a href="https://www.spreadshirt.com/user/hobbssteelej" target="_blank">Spreadshirt</a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+         </div>
+      </div>
+
+   </nav>
+</div>
+
+
+<!-- Header section
+================================================== -->
+<section id="header" class="header-four">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
+            	<div class="header-thumb">
+            	  <h1 class="wow fadeIn" data-wow-delay="0.6s">Contact ME</h1>
+            	  <h3 class="wow fadeInUp" data-wow-delay="0.9s">I am always open to new opportunities</h3>
+           		</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- Contact section
+================================================== -->
+<section id="contact">
+   <div class="container">
+      <div class="row">
+
+         <!--<div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="1.3s">
+         	<div class="google_map">
+				<div id="map-canvas"></div>
+			</div>
+		</div>-->
+
+		<div class="wow fadeInUp col-sm-12 col-md-12" data-wow-delay="1.6s">
+			<h1>Let's work together!</h1>
+			<div class="contact-form">
+				<form id="contact-form" method="post" action="contact.php">
+					<input name="message" type="text" class="form-control" placeholder="Your Name" required>
+					<input name="email" type="email" class="form-control" placeholder="Your Email" required>
+					<textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea>
+					<div class="contact-submit">
+            <input onclick="myFunction()" type="submit" class="form-control submit" value="Send a message">
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div class="clearfix"></div>
+
+			<div class="col-md-4 col-sm-4">
+				<div class="wow fadeInUp media" data-wow-delay="0.3s">
+					<div class="media-object pull-left">
+						<i class="fa fa-tablet"></i>
+					</div>
+					<div class="media-body">
+						<p><a href="tel:360-823-3712">360.823.3712</a></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-4">
+				<div class="wow fadeInUp media" data-wow-delay="0.6s">
+					<div class="media-object pull-left">
+						<i class="fa fa-envelope"></i>
+					</div>
+					<div class="media-body">
+						<p><a href="mailto:hobbssteelej@gmail.com?Subject=RE%20Portfolio" target="_top">hobbssteelej@gmail.com</a></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-4">
+				<div class="wow fadeInUp media" data-wow-delay="0.9s">
+					<div class="media-object pull-left">
+						<i class="fa fa-globe"></i>
+					</div>
+					<div class="media-body">
+						<p>Washington State, USA</p>
+					</div>
+				</div>
+			</div>
+
+      </div>
+   </div>
+</section>
+
+
+<!-- Footer section
+================================================== -->
+<footer>
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+			  <p class="wow fadeInUp" data-wow-delay="0.3s">Copyright © 2018 My Portfolio - Designed by Tooplate. Modified by Jessica Hobbs-Steele.</p>
+			  <ul class="social-icon wow fadeInUp"  data-wow-delay="0.6s">
+				    <li><a href="https://www.instagram.com/jhsteeleservices" class="fa fa-instagram" target="_blank"></a></li>
+                    <!--<li><a href="https://www.facebook.com/hobbssteelej" class="fa fa-facebook"></a></li>
+					<li><a href="https://twitter.com/HobbsSteele" class="fa fa-twitter"></a></li>
+					<li><a href="https://dribbble.com/hobbssteelej" class="fa fa-dribbble"></a></li>
+					<li><a href="https://www.behance.net/jhobbsst5692" class="fa fa-behance"></a></li>
+					<li><a href="https://plus.google.com/u/0/106997852391163953477" class="fa fa-google-plus"></a></li>
+				    <li><a href="https://www.etsy.com/shop/hobbssteelej" class="fa fa-etsy"></a></li>-->
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</footer>
+
+<!-- Javascript
+================================================== -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+<script>
+function myFunction() {
+  alert("Thank you for submitting your request! I will get back to you shortly.");
+}
+</script>
+
+</body>
+
+<!-- Mirrored from hobbssteelej.github.io/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 13 Jul 2019 15:19:48 GMT -->
+</html>
